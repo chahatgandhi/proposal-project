@@ -24,12 +24,12 @@ function App() {
     <div className="App">
       {accepted ? (
         <div className="response">
-          {/* <img src={happy} alt="Happy" /> */}
+          <img src={happy} alt="Happy" />
           <p>Yay! I'm so happy!</p> 
         </div>
       ) : (
         <div className="proposal">
-          {/* <img src={ask} alt="Ask" /> */}
+          <img src={ask} alt="Ask" />
           <p>Will you go on a date with me?</p>
           <div className="buttons">
             <button onClick={handleYes}>Yes</button>
